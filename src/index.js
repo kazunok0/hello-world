@@ -26,5 +26,8 @@ module.exports = {
             return value.length*2;
         }
         return 1000;
+    },
+    iAmLucky: () => {
+        return randomNumber(options)%2 === 0? true : false;
     }
 };
